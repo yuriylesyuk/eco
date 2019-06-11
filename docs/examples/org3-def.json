@@ -1,0 +1,47 @@
+{
+    "org" : {
+        "name" : "org3",
+        "envs" : [
+            {
+                "name" : "prod",
+                "hosts" : [
+                     
+                     {
+                         "name" : "default",
+                         "hostaliases" : [ "org3-prod.exco.com"  ],
+                         "port" : 9003
+                     }
+                     ,
+                     {
+                         "name" : "default2",
+                         "hostaliases" : [  "org3-prod.exco.com"  ],
+                         "port" : 9004
+                     }
+                ]
+            },
+            {
+                "name" : "test",
+                "hosts" : [
+                        
+                        {
+                            "name" : "default",
+                            "hostaliases" : [  "org3-prod.exco.com"  ],
+                            "port" : 9005
+                        }
+                        ,
+                        {
+                            "name" : "default2",
+                            "hostaliases" : [  "org3-prod.exco.com"  ],
+                            "port" : 9006
+                        }
+                        ,
+                        {
+                            "name" : "default3",
+                            "hostaliases" : [ "org3-prod.exco.com", "10.157.0.14" ],
+                            "port" : 9007
+                        }
+                ]
+            }
+        ]
+    }
+}

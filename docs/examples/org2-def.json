@@ -1,0 +1,25 @@
+{
+    "org" : {
+        "name" : "org2",
+        "envs" : [
+             
+             {
+                 "name" : "prod",
+                 "hosts" : [
+                     
+                     {
+                         "name" : "default",
+                         "hostaliases" : [  "org2-prod.exco.com"  ],
+                         "port" : 9003
+                     }
+                     ,
+                     {
+                         "name" : "default2",
+                         "hostaliases" : [  "org2-prod.exco.com"  ],
+                         "port" : 9004
+                     }
+                    ]
+                }
+           ]
+    }
+}
